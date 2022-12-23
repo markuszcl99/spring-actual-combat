@@ -45,4 +45,18 @@ public class DataSourceConfig implements CommandLineRunner {
         jdbcTemplate.queryForList("SELECT * FROM FOO")
                 .forEach(row -> log.info(row.toString()));
     }
+
+    /**
+     * springboot 配置由来 spring.factories
+     * DataSource from DataSourceAutoConfiguration
+     * DatasourceTransactionManager from DataSourceTransactionManagerAutoConfiguration
+     * JdbcTemplate from JdbcTemplateAutoConfiguration
+     */
+
+    /**
+     * 数据源相关配置属性
+     * 通用
+     *
+     */
+
 }
