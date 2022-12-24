@@ -17,6 +17,7 @@
     <modules>
         <module>spring-integration-data</module>
         <module>chapter2-multi-datasource-demo</module>
+        <module>chapter2-druid-datasource-demo</module>
     </modules>
 
     <properties>
