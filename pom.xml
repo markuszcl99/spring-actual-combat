@@ -20,6 +20,9 @@
         <module>chapter2-druid-datasource-demo</module>
         <module>chapter2-transaction-demo</module>
         <module>chapter2-errorcode-demo</module>
+        <module>markus-spring-boot-starter-autoconfigure</module>
+        <module>markus-spring-hello</module>
+        <module>custom-spring-starter-demo</module>
     </modules>
 
     <properties>
